@@ -1,0 +1,82 @@
+body
+{
+    margin: 0;
+}
+.banner
+{
+    background-color: rgb(163, 22, 22);
+    color: white;
+}
+#font-c
+{
+    color: yellow;
+}
+.nav-bg
+{
+    background-color: rgb(65, 2, 2);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.img-width
+{
+    max-width: 50%;
+}
+.img1
+{
+    height: 322px;
+    max-width: 450px;
+}
+img.left{
+    display:block;
+    float:left;
+    }
+    img.right{
+    display:block;
+    float:right;
+    }
+    img
+    {
+        max-width: 100%; 
+    }
+    @media (max-width: 770px) {
+    img
+    {
+        max-width: 100%;
+    }
+    }
+    @media (min-width: 771px) {
+    img
+    {
+        /* max-width: 70%; */
+    }
+    }
+.mimg
+{
+    height: 100px;
+    width: 100px;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  a:link
+  {
+      text-decoration: none;
+  }
